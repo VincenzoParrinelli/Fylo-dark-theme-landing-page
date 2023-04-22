@@ -1,6 +1,10 @@
+//ABSTRACTS
+@import "abstracts/fonts";
+@import "abstracts/variables";
+
 //BASE
 @import "base/base";
 @import "base/typography";
 
-//ABSTRACTS
-@import "abstracts/variables";
+//PAGES
+@import "pages/landing-page";
