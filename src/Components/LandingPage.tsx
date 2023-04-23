@@ -18,12 +18,19 @@ export default function LandingPage() {
                 </nav>
 
 
-                <div className="landing-page__test">
+                <div className="landing-page__get-started-text-container">
                     <img src="../../public/Assets/Images/illustration-intro.png" alt="illustration" className="landing-page__illustration-intro" />
 
                     <h1 className="heading-primary">All your files in one secure location, accessible anywhere.</h1>
-                </div>
 
+                    <p className="paragraph">
+                        Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate
+                        with friends family, and co-workers.
+                    </p>
+
+                    <button className="btn btn--primary">Get Started</button>
+
+                </div>
 
             </header>
 
