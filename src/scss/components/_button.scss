@@ -1,13 +1,18 @@
 .btn {
     outline: none;
     border: none;
+    cursor: pointer;
+    font-family: "Raleway";
+    font-weight: bold;
+    letter-spacing: .01rem;
+    text-align: center;
 
     &--primary {
         color: $color-white;
         background-image: linear-gradient(to right, $color-cyan -40%, $color-blue 70%);
-        padding: 1rem 5.5rem;
+        padding: 1.2rem 6rem;
         transform: translateY(2rem);
         border-radius: 10rem;
-        
+        font-size: 1.1rem;
     }
 }

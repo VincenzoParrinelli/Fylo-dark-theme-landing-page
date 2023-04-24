@@ -1,4 +1,4 @@
-import { ReactComponent as Logo } from "../../public/Assets/Images/logo.svg"
+import { ReactComponent as Logo } from "../../Assets/Images/logo.svg"
 import { ReactComponent as Headerbackground } from "../../public/assets/Images/bg-curvy-desktop.svg"
 
 export default function LandingPage() {
@@ -19,7 +19,7 @@ export default function LandingPage() {
 
 
                 <div className="landing-page__get-started-text-container">
-                    <img src="../../public/Assets/Images/illustration-intro.png" alt="illustration" className="landing-page__illustration-intro" />
+                    <img src="../../Assets/Images/illustration-intro.png" alt="illustration" className="landing-page__illustration-intro" />
 
                     <h1 className="heading-primary">All your files in one secure location, accessible anywhere.</h1>
 
