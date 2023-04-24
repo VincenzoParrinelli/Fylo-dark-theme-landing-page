@@ -1,18 +1,34 @@
-.heading-primary {
+.heading {
     color: $color-white;
-    font-size: 2.5rem;
-    letter-spacing: .1rem;
     text-align: center;
-    line-height: 1.5;
-    margin-top: 3rem;
+
+    &--primary {
+        letter-spacing: .05rem;
+        line-height: 1.5;
+        margin-bottom: 3rem;
+        font-size: 2.5rem;
+    }
+
+    &--secondary {
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
 }
 
 .paragraph {
     color: $color-white;
-    font-size: 1.3rem;
-    margin-top: 3rem;
     text-align: center;
     opacity: 0.8;
     line-height: 1.5;
-    inline-size: 40rem;
+
+    &--primary {
+        font-size: 1.3rem;
+        inline-size: 40rem;
+    }
+
+    &--secondary {
+        font-size: 1.1rem;
+        opacity: 0.6;
+    }
 }
