@@ -41,9 +41,11 @@ export default function LandingPage() {
 
             <main>
                 <section className="landing-page__features-container">
+
+
                     <div className="landing-page__feature">
 
-                        <AccessAnywhereIcon className="landing-page__icon"/>
+                        <AccessAnywhereIcon className="landing-page__icon" />
 
                         <h1 className="heading heading--secondary">Access your files, anywhere</h1>
                         <p className="paragraph paragraph--secondary">
@@ -53,7 +55,7 @@ export default function LandingPage() {
 
                     <div className="landing-page__feature">
 
-                        <SecurityIcon className="landing-page__icon"/>
+                        <SecurityIcon className="landing-page__icon" />
 
                         <h1 className="heading heading--secondary">Security you can trust</h1>
                         <p className="paragraph paragraph--secondary">
@@ -64,7 +66,7 @@ export default function LandingPage() {
 
                     <div className="landing-page__feature">
 
-                        <CollaborationIcon className="landing-page__icon"/>
+                        <CollaborationIcon className="landing-page__icon" />
 
                         <h1 className="heading heading--secondary">Real-time collaboration</h1>
                         <p className="paragraph paragraph--secondary">
@@ -75,7 +77,7 @@ export default function LandingPage() {
 
                     <div className="landing-page__feature">
 
-                        <AnyFileIcon className="landing-page__icon"/>
+                        <AnyFileIcon className="landing-page__icon" />
 
                         <h1 className="heading heading--secondary">Store any type of file</h1>
                         <p className="paragraph paragraph--secondary">

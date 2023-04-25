@@ -1,8 +1,9 @@
 .landing-page {
-    width: 100vw;
-    height: 100vh;
     background-color: $color-primary-dark-blue-1;
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     &__header {
         display: flex;
@@ -18,7 +19,8 @@
         justify-content: space-between;
         align-items: center;
         position: relative;
-        width: 100%;
+        width: 100vw;
+        padding: 4rem;
     }
 
     &__logo {
@@ -39,6 +41,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        z-index: 1;
     }
 
     &__get-started-text-container {
@@ -48,7 +51,7 @@
     &__feature {
         align-self: center;
         justify-self: center;
-        
+
         width: auto;
     }
 
@@ -61,13 +64,18 @@
         height: auto;
     }
 
+
     &__features-container {
         margin-top: 20rem;
-
+       
+        width: 100vw;
+        
+        background-color: $color-primary-dark-blue-2;
         display: grid;
         justify-content: center;
         align-items: center;
         grid-gap: 7rem;
+
         grid-template-columns: 30rem 30rem;
     }
 }
