@@ -38,10 +38,9 @@ export default function LandingPage() {
 
             </header>
 
-
             <main>
-                <section className="landing-page__features-container">
 
+                <section className="landing-page__features-container">
 
                     <div className="landing-page__feature">
 

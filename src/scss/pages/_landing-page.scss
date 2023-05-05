@@ -12,6 +12,17 @@
         align-items: center;
         font-family: "Raleway";
         font-size: 1.2rem;
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 50rem;
+            bottom: -18rem;
+            background: url("../../../Assets/Images/bg-curvy-desktop.svg");
+            background-size: cover;
+            background-position: center;
+        }
     }
 
     &__navbar {
@@ -45,7 +56,7 @@
     }
 
     &__get-started-text-container {
-        margin-top: 4rem;
+        //margin-top: -2rem;
     }
 
     &__feature {
@@ -66,7 +77,7 @@
 
 
     &__features-container {
-        margin-top: 20rem;
+        margin-top: 16rem;
        
         width: 100vw;
         
@@ -76,6 +87,6 @@
         align-items: center;
         grid-gap: 7rem;
 
-        grid-template-columns: 30rem 30rem;
+        grid-template-columns: 35rem 35rem;
     }
 }
