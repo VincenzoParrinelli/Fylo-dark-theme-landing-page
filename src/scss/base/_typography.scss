@@ -1,36 +1,68 @@
-.heading {
+.heading-primary,
+.heading-secondary {
     color: $color-white;
     text-align: center;
+    letter-spacing: .1rem;
+}
 
-    &--primary {
-        letter-spacing: .05rem;
-        line-height: 1.5;
-        margin-top: 2rem;
-        margin-bottom: 3rem;
-        font-size: 2.5rem;
-    }
+.heading-primary {
+    line-height: 1.5;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
 
-    &--secondary {
-        font-size: 1.5rem;
-        margin-top: 1.5rem;
-        margin-bottom: 1rem;
+    &--left {
+        text-align: left;
+        line-height: 0.1;
     }
 }
 
-.paragraph {
+.heading-secondary {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.paragraph-primary,
+.paragraph-secondary,
+.paragraph-tertiary {
     color: $color-white;
     text-align: center;
     opacity: 0.8;
     line-height: 1.5;
+}
 
-    &--primary {
-        font-size: 1.3rem;
-        inline-size: 40rem;
-    }
+.paragraph-secondary,
+.paragraph-tertiary {
+    font-size: 1.1rem;
+    opacity: 0.6;
+}
 
-    &--secondary {
-        font-size: 1.1rem;
-        opacity: 0.6;
-        inline-size: 29.6rem;
+.paragraph-primary {
+    font-size: 1.3rem;
+    inline-size: 40rem;
+}
+
+.paragraph-secondary {
+    inline-size: 29.6rem;
+}
+
+.paragraph-tertiary {
+    text-align: left;
+    margin-top: 1rem;
+
+    &--anchor {
+        color: $color-cyan;
+        text-decoration: none;
+        vertical-align: middle;
+        position: relative;
+        top: 1.5rem;
+
+        &::after {
+            content: "";
+            display: block;
+            width: 30.4%;
+            border-bottom: 1px solid;
+        }
     }
 }
