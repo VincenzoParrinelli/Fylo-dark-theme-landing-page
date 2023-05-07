@@ -25,7 +25,10 @@ export default function LandingPage() {
                 <div className="landing-page__get-started-text-container">
                     <img src="../../Assets/Images/illustration-intro.png" alt="illustration" className="landing-page__illustration-intro" />
 
-                    <h1 className="heading-primary">All your files in one secure location, accessible anywhere.</h1>
+                    <h1 className="heading-primary">
+                        All your files in one secure location, <br /> accessible anywhere.
+
+                    </h1>
 
                     <p className="paragraph-primary">
                         Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate
@@ -96,8 +99,7 @@ export default function LandingPage() {
                     <div className="landing-page__stay-productive-container">
 
                         <div className="landing-page__stay-productive-heading-container">
-                            <h1 className="heading-primary heading-primary--left">Stay productive,</h1>
-                            <h1 className="heading-primary heading-primary--left">wherever you are</h1>
+                            <h1 className="heading-primary heading-primary--left clear-line-height">Stay productive, wherever you are</h1>
                         </div>
 
                         <p className="paragraph-tertiary">
@@ -117,6 +119,24 @@ export default function LandingPage() {
                         </a>
                     </div>
 
+                </section>
+
+
+                <section className="landing-page__cards-section">
+                    <div className="landing-page__card">
+
+                        <p className="paragraph-tertiary">
+                            Fylo has improved our team productivity by an order of magnitude. Since making the switch our
+                            team has become a well-oiled collaboration machine.
+                        </p>
+
+                    </div>
+                    <div className="landing-page__card">
+
+                    </div>
+                    <div className="landing-page__card">
+
+                    </div>
                 </section>
             </main>
         </div>

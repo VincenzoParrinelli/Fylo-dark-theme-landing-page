@@ -7,11 +7,12 @@
 
 .heading-primary {
     line-height: 1.5;
-    margin-top: 2rem;
+    margin-top: 6rem;
     margin-bottom: 3rem;
-    font-size: 2.5rem;
+    font-size: 3rem;
 
     &--left {
+        margin-top: 0;
         text-align: left;
         line-height: 0.1;
     }
@@ -39,8 +40,8 @@
 }
 
 .paragraph-primary {
-    font-size: 1.3rem;
-    inline-size: 40rem;
+    font-size: 1.7rem;
+    inline-size: 50rem;
 }
 
 .paragraph-secondary {
@@ -65,4 +66,8 @@
             border-bottom: 1px solid;
         }
     }
+}
+
+.clear-line-height {
+    line-height: unset;
 }
