@@ -1,5 +1,6 @@
 .heading-primary,
-.heading-secondary {
+.heading-secondary,
+.heading-tertiary {
     color: $color-white;
     text-align: center;
     letter-spacing: .1rem;
@@ -24,6 +25,12 @@
     margin-bottom: 1rem;
 }
 
+.heading-tertiary {
+    opacity: 0.9;
+    text-align: left;
+    font-size: .6rem;
+}
+
 .paragraph-primary,
 .paragraph-secondary,
 .paragraph-tertiary {
@@ -36,7 +43,7 @@
 .paragraph-secondary,
 .paragraph-tertiary {
     font-size: 1.1rem;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 .paragraph-primary {
@@ -44,13 +51,9 @@
     inline-size: 50rem;
 }
 
-.paragraph-secondary {
-    inline-size: 29.6rem;
-}
-
 .paragraph-tertiary {
-    text-align: left;
-    margin-top: 1rem;
+    font-size: .6rem;
+    opacity: 0.5;
 
     &--anchor {
         color: $color-cyan;
@@ -66,8 +69,4 @@
             border-bottom: 1px solid;
         }
     }
-}
-
-.clear-line-height {
-    line-height: unset;
 }

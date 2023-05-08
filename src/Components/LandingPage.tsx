@@ -99,14 +99,14 @@ export default function LandingPage() {
                     <div className="landing-page__stay-productive-container">
 
                         <div className="landing-page__stay-productive-heading-container">
-                            <h1 className="heading-primary heading-primary--left clear-line-height">Stay productive, wherever you are</h1>
+                            <h1 className="heading-primary heading-primary--left u-clear-line-height">Stay productive, wherever you are</h1>
                         </div>
 
-                        <p className="paragraph-tertiary">
+                        <p className="paragraph-secondary u-margin-bottom-small u-text-left">
                             Never let location be an issue when accessing your files. Fylo has you covered for all of your life storage needs.
                         </p>
 
-                        <p className="paragraph-tertiary">
+                        <p className="paragraph-secondary u-text-left">
                             Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments
                             required.
                         </p>
@@ -125,17 +125,63 @@ export default function LandingPage() {
                 <section className="landing-page__cards-section">
                     <div className="landing-page__card">
 
-                        <p className="paragraph-tertiary">
+                        <p className="paragraph-secondary u-text-left">
                             Fylo has improved our team productivity by an order of magnitude. Since making the switch our
                             team has become a well-oiled collaboration machine.
                         </p>
 
-                    </div>
-                    <div className="landing-page__card">
+                        <div className="landing-page__card-review-container">
+
+                            <img className="landing-page__card-profile-icon" src="../../Assets/Images/profile-1.jpg" alt="profile1" />
+
+                            <div className="landing-page__card-user-details">
+                                <h3 className="heading-tertiary u-margin-bottom-smallest">Satish Patel</h3>
+                                <p className="paragraph-tertiary">Founder & CEO, Huddle</p>
+                            </div>
+
+                        </div>
 
                     </div>
+
                     <div className="landing-page__card">
 
+                        <p className="paragraph-secondary u-text-left">
+                            Fylo has improved our team productivity by an order of magnitude. Since making the switch our
+                            team has become a well-oiled collaboration machine.
+                        </p>
+
+
+                        <div className="landing-page__card-review-container">
+
+                            <img className="landing-page__card-profile-icon" src="../../Assets/Images/profile-2.jpg" alt="profile2" />
+
+
+                            <div className="landing-page__card-user-details">
+                                <h3 className="heading-tertiary u-margin-bottom-smallest">Bruce McKenzie</h3>
+                                <p className="paragraph-tertiary">Founder & CEO, Huddle</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div className="landing-page__card">
+
+                        <p className="paragraph-secondary u-text-left">
+                            Fylo has improved our team productivity by an order of magnitude. Since making the switch our
+                            team has become a well-oiled collaboration machine.
+                        </p>
+
+                        <div className="landing-page__card-review-container">
+
+                            <img className="landing-page__card-profile-icon" src="../../Assets/Images/profile-3.jpg" alt="profile3" />
+
+                            <div className="landing-page__card-user-details">
+                                <h3 className="heading-tertiary u-margin-bottom-smallest">Iva Boyd</h3>
+                                <p className="paragraph-tertiary">Founder & CEO, Huddle</p>
+                            </div>
+
+                        </div>
                     </div>
                 </section>
             </main>
