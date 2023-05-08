@@ -125,7 +125,7 @@ export default function LandingPage() {
                 <section className="landing-page__cards-section">
                     <div className="landing-page__card">
 
-                        <p className="paragraph-secondary u-text-left">
+                        <p className="paragraph-secondary u-text-left u-margin-bottom-medium">
                             Fylo has improved our team productivity by an order of magnitude. Since making the switch our
                             team has become a well-oiled collaboration machine.
                         </p>
@@ -145,7 +145,7 @@ export default function LandingPage() {
 
                     <div className="landing-page__card">
 
-                        <p className="paragraph-secondary u-text-left">
+                        <p className="paragraph-secondary u-text-left u-margin-bottom-medium">
                             Fylo has improved our team productivity by an order of magnitude. Since making the switch our
                             team has become a well-oiled collaboration machine.
                         </p>
@@ -167,7 +167,7 @@ export default function LandingPage() {
 
                     <div className="landing-page__card">
 
-                        <p className="paragraph-secondary u-text-left">
+                        <p className="paragraph-secondary u-text-left u-margin-bottom-medium">
                             Fylo has improved our team productivity by an order of magnitude. Since making the switch our
                             team has become a well-oiled collaboration machine.
                         </p>
