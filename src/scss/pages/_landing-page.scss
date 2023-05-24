@@ -9,42 +9,6 @@
         //margin-top: -2rem;
     }
 
-    &__early-access-form {
-        position: absolute;
-        width: 45%;
-        height: 30%;
-        background-color: $color-primary-dark-blue-1;
-        bottom: -177rem;
-        border-radius: .5rem;
-
-    }
-
-    &__early-access-form-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-        height: 90%;
-    }
-
-    &__email-container {
-        display: flex;
-        width: 80%;
-    }
-
-    &__email-input {
-        border-radius: 2rem;
-        width: 70%;
-        border: none;
-        outline: none;
-        padding: 1rem 3rem;
-
-        &::placeholder {
-            opacity: 0.4;
-        }
-    }
-
     &__footer {
         width: 100vw;
         height: 50vh;
