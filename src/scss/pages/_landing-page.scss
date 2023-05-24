@@ -8,35 +8,6 @@
     &__get-started-text-container {
         //margin-top: -2rem;
     }
-    &__stay-productive-section {
-        display: grid;
-        justify-content: center;
-        margin-top: 10rem;
-
-        grid-template-columns: 59rem 50rem;
-    }
-
-    &__stay-productive-illustration {
-        transform: scale(0.8);
-    }
-
-    &__stay-productive-heading-container {
-        font-family: "Raleway";
-    }
-
-    &__stay-productive-container {
-        margin-top: 12rem;
-        inline-size: 38rem;
-    }
-
-    &__arrow-icon {
-        vertical-align: middle;
-        margin-left: .2rem;
-        position: relative;
-        width: 3.8%;
-        height: 5%;
-        transform: scale(0.8);
-    }
 
     &__cards-section {
         display: flex;
@@ -103,7 +74,7 @@
         background-color: $color-primary-dark-blue-1;
         bottom: -177rem;
         border-radius: .5rem;
-        
+
     }
 
     &__early-access-form-container {

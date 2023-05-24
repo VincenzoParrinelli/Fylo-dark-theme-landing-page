@@ -1,0 +1,29 @@
+.stay-productive {
+    display: grid;
+    justify-content: center;
+    margin-top: 10rem;
+
+    grid-template-columns: 59rem 50rem;
+
+    &__illustration {
+        transform: scale(0.8);
+    }
+
+    &__container {
+        margin-top: 12rem;
+        inline-size: 38rem;
+    }
+
+    &__heading-container {
+        font-family: "Raleway";
+    }
+
+    &__arrow-icon {
+        vertical-align: middle;
+        margin-left: .2rem;
+        position: relative;
+        width: 3.8%;
+        height: 5%;
+        transform: scale(0.8);
+    }
+}
