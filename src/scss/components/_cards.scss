@@ -1,0 +1,57 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    z-index: 1;
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 17.5%;
+        height: 52%;
+        margin: 1.4rem;
+        padding: 2rem;
+        background-color: $color-primary-dark-blue-4;
+        border-radius: .3rem;
+
+        &:first-child {
+
+            &::before {
+                content: "";
+                position: absolute;
+                width: 10%;
+                height: 10%;
+                transform: translate(-2.5rem, -4.3rem);
+                background-image: url("../../../Assets/Images/bg-quotes.png");
+                background-repeat: no-repeat;
+                background-size: contain;
+                z-index: -1 !important;
+            }
+        }
+    }
+
+    &__profile-icon-container {
+        width: 100%;
+        background-color: red;
+    }
+
+    &__review-container {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+    &__profile-icon {
+        border-radius: 50%;
+        width: 7%;
+        height: auto;
+    }
+
+    &__user-details {
+        margin-left: .8rem;
+    }
+}
