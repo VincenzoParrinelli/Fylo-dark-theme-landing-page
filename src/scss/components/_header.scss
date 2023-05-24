@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Raleway";
+    font-size: 1.2rem;
+    background-color: $color-primary-dark-blue-1;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 50rem;
+        bottom: -10rem;
+        background: url("../../../Assets/Images/bg-curvy-desktop.svg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    &__navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        width: 100vw;
+        padding: 4rem;
+    }
+
+    &__logo {
+        transform: scale(0.6);
+    }
+
+    &__link {
+        margin: 2.5rem;
+        text-decoration: none;
+        color: $color-white;
+        opacity: 0.7;
+    }
+
+    &__get-started-text-container {
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+
+    &__illustration-intro {
+        width: 47rem;
+
+        transform: scale(1.18);
+        height: auto;
+    }
+}

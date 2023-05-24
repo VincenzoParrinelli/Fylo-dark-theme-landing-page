@@ -1,3 +1,5 @@
+import Header from "./Header"
+
 import { ReactComponent as Logo } from "../../Assets/Images/logo.svg"
 import { ReactComponent as AccessAnywhereIcon } from "../../assets/Images/icon-access-anywhere.svg"
 import { ReactComponent as SecurityIcon } from "../../assets/Images/icon-security.svg"
@@ -15,37 +17,7 @@ export default function LandingPage() {
     return (
         <div className="landing-page">
 
-            <header className="landing-page__header">
-
-                <nav className="landing-page__navbar">
-                    <Logo className="landing-page__logo" />
-
-                    <div className="landing-page__nav-items">
-                        <a href="#" className="landing-page__link">Features</a>
-                        <a href="#" className="landing-page__link">Team</a>
-                        <a href="#" className="landing-page__link">Sign In</a>
-                    </div>
-                </nav>
-
-
-                <div className="landing-page__get-started-text-container">
-                    <img src="../../Assets/Images/illustration-intro.png" alt="illustration" className="landing-page__illustration-intro" />
-
-                    <h1 className="heading-primary">
-                        All your files in one secure location, <br /> accessible anywhere.
-
-                    </h1>
-
-                    <p className="paragraph-primary">
-                        Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate
-                        with friends family, and co-workers.
-                    </p>
-
-                    <button className="btn btn--primary">Get Started</button>
-
-                </div>
-
-            </header>
+            <Header />
 
             <main>
 
