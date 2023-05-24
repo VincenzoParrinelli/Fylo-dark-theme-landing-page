@@ -226,7 +226,7 @@
     }
 
     &__footer-logo {
-        transform: scale(0.7);
+        transform: scale(0.7) translateY(7rem);
     }
 
     &__footer-info-navbar {
@@ -234,6 +234,8 @@
         grid-template-rows: repeat(auto-fit, 3.5rem);
         grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
         list-style: none;
+
+        margin-top: 5rem;
     }
 
     &__footer-info {
