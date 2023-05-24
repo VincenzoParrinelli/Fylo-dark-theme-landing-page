@@ -6,13 +6,18 @@
     font-weight: bold;
     letter-spacing: .01rem;
     text-align: center;
+    background-image: linear-gradient(to right, $color-cyan -40%, $color-blue 70%);
+    color: $color-white;
+    font-size: 1.05rem;
+    border-radius: 10rem;
 
     &--primary {
-        color: $color-white;
-        background-image: linear-gradient(to right, $color-cyan -40%, $color-blue 70%);
         padding: 1.15rem 6rem;
         transform: translateY(2rem);
-        border-radius: 10rem;
-        font-size: 1.05rem;
+    }
+
+    &--secondary {
+        padding: 1.15rem 3rem;
+        transform: translateX(1.5rem);
     }
 }
