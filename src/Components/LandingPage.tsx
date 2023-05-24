@@ -1,10 +1,7 @@
 import Header from "./Header"
+import Features from "./Features"
 
 import { ReactComponent as Logo } from "../../Assets/Images/logo.svg"
-import { ReactComponent as AccessAnywhereIcon } from "../../assets/Images/icon-access-anywhere.svg"
-import { ReactComponent as SecurityIcon } from "../../assets/Images/icon-security.svg"
-import { ReactComponent as CollaborationIcon } from "../../assets/Images/icon-collaboration.svg"
-import { ReactComponent as AnyFileIcon } from "../../assets/Images/icon-any-file.svg"
 import { ReactComponent as ArrowIcon } from "../../assets/Images/icon-arrow.svg"
 import { ReactComponent as PositionIcon } from "../../assets/Images/position-marker-svgrepo-com.svg"
 import { ReactComponent as PhoneRingingIcon } from "../../assets/Images/phone-call-ringing-svgrepo-com.svg"
@@ -21,52 +18,7 @@ export default function LandingPage() {
 
             <main>
 
-                <section className="landing-page__features-container">
-
-                    <div className="landing-page__feature">
-
-                        <AccessAnywhereIcon className="landing-page__icon" />
-
-                        <h1 className="heading-secondary">Access your files, anywhere</h1>
-                        <p className="paragraph-secondary">
-                            The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.
-                        </p>
-                    </div>
-
-                    <div className="landing-page__feature">
-
-                        <SecurityIcon className="landing-page__icon" />
-
-                        <h1 className="heading-secondary">Security you can trust</h1>
-                        <p className="paragraph-secondary">
-                            2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help
-                            secure your files.
-                        </p>
-                    </div>
-
-                    <div className="landing-page__feature">
-
-                        <CollaborationIcon className="landing-page__icon" />
-
-                        <h1 className="heading-secondary">Real-time collaboration</h1>
-                        <p className="paragraph-secondary">
-                            Securely share files and folders with friends. family and colleagues for live collaboration. No email attachments
-                            required.
-                        </p>
-                    </div>
-
-                    <div className="landing-page__feature">
-
-                        <AnyFileIcon className="landing-page__icon" />
-
-                        <h1 className="heading-secondary">Store any type of file</h1>
-                        <p className="paragraph-secondary">
-                            Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types
-                            to be securely stored and shared.
-                        </p>
-                    </div>
-
-                </section>
+                <Features />
 
                 <section className="landing-page__stay-productive-section">
                     <img
