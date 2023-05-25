@@ -69,12 +69,18 @@
         vertical-align: middle;
         position: relative;
         top: 1.5rem;
+        transition: all .15s;
 
         &::after {
             content: "";
             display: block;
             width: 30.4%;
             border-bottom: 1px solid;
+        }
+
+        &:hover {
+            color: $color-white !important;
+            opacity: 1;
         }
     }
 }
