@@ -27,7 +27,7 @@ export default function StayProductive() {
 
                     See how Fylo works
 
-                    <ArrowIcon className="arrow-icon" />
+                    <ArrowIcon className="stay-productive__arrow-icon" />
                 </a>
             </div>
 
