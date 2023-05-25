@@ -37,9 +37,9 @@
             flex-direction: column;
         }
 
-        & > * {
+        &>* {
             transition: all .2s;
-            
+
             &:hover {
                 opacity: 1;
             }
@@ -61,6 +61,13 @@
         margin: .5rem;
         border: solid $color-white thin;
         border-radius: 50%;
+        cursor: pointer;
+        color: $color-white;
+
+        &:hover {
+            color: $color-cyan;
+            border-color: $color-cyan;
+        }
     }
 
     &__social-icon {
