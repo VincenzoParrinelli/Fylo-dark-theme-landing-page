@@ -18,6 +18,7 @@ export default function LandingPage() {
                 <StayProductive />
 
                 <Cards />
+                
             </main>
 
             <EarlyAccessForm />
