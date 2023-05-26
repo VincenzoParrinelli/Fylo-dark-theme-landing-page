@@ -15,7 +15,7 @@
     &--medium {
         font-size: 2.4rem;
         margin-top: 0;
-        margin-bottom: 0;
+        margin-bottom: 1rem;
         line-height: 0;
     }
 
@@ -83,5 +83,12 @@
             color: $color-white;
             opacity: 1;
         }
+    }
+
+    &--error-paragraph {
+        color: $color-light-red;
+        opacity: 1;
+        transform: translateX(-19.2rem) translateY(-2rem);
+        opacity: 0;
     }
 }
